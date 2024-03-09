@@ -49,7 +49,7 @@
     Rubik'
     ,
     sans-serif;
-    transform: skew(-25deg);
+    /* transform: skew(-25deg); */
     transition: all 400ms ease-out
   }
   
@@ -92,20 +92,25 @@
     position: absolute;
     top: 0;
     height: 120px;
-  
+    
     transform: skewX(-25deg);
   }
   
   .brand-logo {
-    /* left: -30px;
-    padding-left: 70px;
-    background: #621616;
-    border-right: 2px solid #ffb66c; */
-    left: -30px;
-    padding-left: 70px;
+   
+
+    left: 6px;
+    /* padding-left: 43px; */
     background: #7c7b7b;
     border-right: 2px solid #8d8d8d;
-    /* box-shadow: 0px 4px 17px 0px #60605f; */
+    background-image: url("../../assets/Imgs/logo1.jpg");
+    width: 119px;
+    height: 137px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: skewX(-22deg);
+
   }
   
   /* .brand-phone {
@@ -139,5 +144,28 @@
     font-variation-settings: "slnt" 0;
     font-size: 20px;
     font-weight: bolder;
-    color: white;
+    color: #FF5722;
+   
+    
 }  
+#siteName{
+  font-size: 46px;
+  color: var(--bs-gray);
+  font-family: monospace;
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+.logo-img {
+  height: 40px; /* Adjust the height as needed */
+}
+
+.top-bar-wrap .nav-item:first-child,
+.main-nav-wrap .nav-item:first-child {
+  padding-left: 0; /* Remove left padding for the logo */
+  margin-right: 10px; /* Add some spacing between the logo and other navigation items */
+}
+
+

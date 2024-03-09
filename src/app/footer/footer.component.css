@@ -45,7 +45,9 @@ ul {
   margin-bottom: 30px;
 }
 .footer-logo img {
-    max-width: 200px;
+  max-width: 300px;
+  border-radius: 22px;
+  margin-left: 21%;
 }
 .footer-text p {
   margin-bottom: 14px;
@@ -157,4 +159,24 @@ ul {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
+}
+#footerFont{
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  font-size: 14px;
+  font-weight: bolder;
+  color: silver;
+}
+#footerFont2{
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  font-size: 22px;
+  font-weight: bolder;
+  color: #ff5e14;
 }
